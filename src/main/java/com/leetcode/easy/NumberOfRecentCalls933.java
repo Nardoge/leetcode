@@ -7,8 +7,6 @@ package com.leetcode.easy;
  * @Date 2020/4/16 1:17
  **/
 
-import java.util.Stack;
-
 /**
  * 写一个 RecentCounter 类来计算最近的请求。
  *
@@ -39,6 +37,9 @@ import java.util.Stack;
  * 链接：https://leetcode-cn.com/problems/number-of-recent-calls
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+
+import java.util.Stack;
+
 public class NumberOfRecentCalls933 {
 
     Stack<Integer> storeStack = new Stack<>();
